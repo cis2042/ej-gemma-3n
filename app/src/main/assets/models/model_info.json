@@ -1,0 +1,12 @@
+{
+  "model_name": "gemma_3n_2b_int8",
+  "model_type": "placeholder",
+  "version": "1.0.0",
+  "description": "Placeholder model file for development",
+  "file_size": "placeholder",
+  "vocab_size": 3051,
+  "max_sequence_length": 2048,
+  "quantization": "int8",
+  "created_by": "setup_script",
+  "note": "This is a placeholder file. Replace with real Gemma model for production use."
+}

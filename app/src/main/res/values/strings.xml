@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gemma 3N 多模態助手</string>
+    <string name="title_text">Gemma 3N 多模態助手</string>
+    <string name="model_loading">正在加載模型...</string>
+    <string name="model_loaded">模型已加載</string>
+    <string name="model_load_failed">模型加載失敗</string>
+    <string name="prompt_hint">輸入提示詞</string>
+    <string name="generate_button">生成文本</string>
+    <string name="result_label">生成結果:</string>
+    <string name="generating">正在生成...</string>
+    <string name="generation_failed">生成失敗</string>
+    <string name="empty_prompt">請輸入提示詞</string>
+
+    <!-- 多媒體相關 -->
+    <string name="attach_media">附加媒體</string>
+    <string name="send_message">發送消息</string>
+    <string name="voice_input">語音輸入</string>
+    <string name="recording">正在錄音...</string>
+    <string name="processing_media">正在處理媒體...</string>
+
+    <!-- 權限相關 -->
+    <string name="permission_camera_title">需要相機權限</string>
+    <string name="permission_camera_message">此功能需要使用相機來拍攝照片和錄製視頻</string>
+    <string name="permission_audio_title">需要麥克風權限</string>
+    <string name="permission_audio_message">此功能需要使用麥克風來錄製音頻和語音識別</string>
+    <string name="permission_storage_title">需要存儲權限</string>
+    <string name="permission_storage_message">此功能需要訪問您的照片、視頻和音頻文件</string>
+
+    <!-- 媒體選項 -->
+    <string name="media_option_camera">拍照</string>
+    <string name="media_option_gallery">從相冊選擇</string>
+    <string name="media_option_video">錄製視頻</string>
+    <string name="media_option_audio">錄製音頻</string>
+    <string name="media_option_document">選擇文檔</string>
+
+    <!-- 錯誤消息 -->
+    <string name="error_no_camera">設備不支持相機</string>
+    <string name="error_no_microphone">設備不支持麥克風</string>
+    <string name="error_media_processing">媒體處理失敗</string>
+    <string name="error_speech_recognition">語音識別失敗</string>
+</resources>
