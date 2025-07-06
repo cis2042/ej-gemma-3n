@@ -1,5 +1,89 @@
 
-# Gemma 3N 多模態 Android 助手
+# 🤖 Gemma 3N Multimodal Android Assistant / 多模態 Android 助手
+
+[English](#english) | [中文](#中文)
+
+---
+
+## English
+
+A feature-rich Android chat application supporting intelligent conversations with text, images, audio, video, and documents. Based on Google's Gemma 3N model, providing a completely offline multimodal AI experience.
+
+### 🌟 Key Features
+
+#### Core Capabilities
+- 🚀 **Completely Offline**: No network required, privacy protected
+- 📱 **Native Android App**: Supports Android 8.0+
+- 🧠 **Gemma 3N Integration**: 2B parameter model (INT8 quantized)
+- ⚡ **Hardware Acceleration**: NNAPI, GPU auto-optimization
+- 🎯 **Smart Device Detection**: Auto-adapts to device performance
+
+#### Multimodal Interaction
+- 💬 **Conversational Interface**: Modern chat app user experience
+- 🖼️ **Image Processing**: Camera, gallery selection, image analysis
+- 🎥 **Video Support**: Video recording, video file upload
+- 🎤 **Voice Features**: Speech recognition, text-to-speech, audio recording
+- 📄 **Document Processing**: PDF, text file reading and analysis
+
+### 🚀 Quick Start
+
+#### Prerequisites
+- Android Studio Flamingo or newer
+- JDK 11+
+- Android SDK API 26+
+
+#### Installation
+```bash
+# Clone the repository
+git clone https://github.com/cis2042/ej-gemma-3n.git
+cd ej-gemma-3n
+
+# Build the project
+./gradlew assembleDebug
+
+# Install to device
+./gradlew installDebug
+```
+
+#### Get Gemma 3N Model
+```bash
+cd scripts
+./install_gemma_3n.sh
+```
+
+### 📚 Documentation
+
+- [**Handover Guide**](HANDOVER_GUIDE_EN.md) - Complete engineer onboarding guide
+- [**Testing Checklist**](TESTING_CHECKLIST_EN.md) - Comprehensive testing procedures
+- [**Demo Script**](DEMO_SCRIPT_EN.md) - Project demonstration guide
+- [**Quick Start**](QUICK_START.md) - Fast setup guide
+- [**Model Setup**](MODEL_SETUP_GUIDE.md) - AI model configuration
+
+### 🛠️ Technical Stack
+
+- **Language**: Kotlin
+- **Architecture**: MVVM + Component-based
+- **UI**: Material Design 3
+- **Database**: Room
+- **AI Framework**: TensorFlow Lite
+- **Camera**: CameraX
+- **Image Loading**: Glide
+
+### 📱 Screenshots
+
+*Coming soon - screenshots of the chat interface, multimodal features, and settings*
+
+### 🤝 Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+### 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 中文
 
 這是一個功能豐富的 Android 應用，集成 Google Gemma 3N 模型，支持多模態交互，包括文字、圖片、音頻、視頻和文檔處理，實現完全離線的智能對話功能。
 
